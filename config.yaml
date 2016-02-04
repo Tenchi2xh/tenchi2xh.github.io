@@ -10,7 +10,7 @@ pygmentsCodeFences:         true
 pygmentsOptions:            linenos=table
 
 metaDataFormat:             yaml
-googleAnalytics:            
+googleAnalytics:            UA-19987743-3
 disqusShortname:            commentblocks
 publishdir:                 dist
 
