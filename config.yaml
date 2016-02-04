@@ -1,0 +1,47 @@
+---
+baseurl:                    http://tenchi2xh.github.io/
+languageCode:               en
+title:                      COMMENT BLOCKS
+
+theme:                      commentblocks
+pygmentsStyle:              monokai
+pygmentsUseClasses:         false
+pygmentsCodeFences:         true
+pygmentsOptions:            linenos=table
+
+metaDataFormat:             yaml
+googleAnalytics:            
+disqusShortname:            
+publishdir:                 dist
+
+params:
+    name: Hamza Haiken
+    description: Posts about my free time projects
+    bio: /* COMMENT BLOCKS */
+    twitter: 2xhTenchi
+    enableRSS: false
+
+    home: HOME
+    about: ABOUT
+    subscribe: 
+    olderPosts: OLDER
+    newerPosts: NEWER
+    readMore: READ MORE
+    copyright: 
+
+    aboutAuthor: Enthusiastic hacker
+    tweet: 
+    share: 
+
+    title404: 
+    subtitle404: 
+
+    socialIconStyle: rounded
+
+social:
+    githubalt: https://www.github.com/Tenchi2xh
+    twitter: https://www.twitter.com/2xhTenchi
+    stackoverflow: 
+    flickr: 
+    youtube: 
+...

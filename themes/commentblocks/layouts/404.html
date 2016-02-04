@@ -1,0 +1,53 @@
+	{{ partial "head.html" . }}
+	<body>
+    {{ partial "nav.html" . }}
+
+    <section id="wrapper" class="home">
+        <article class="post">
+            <header>
+                <h1>{{ with .Site.Params.title404 }}{{ . }}{{ else }}404 - Page not found{{ end }}</h1>
+                <h3>{{ with .Site.Params.subtitle404 }}{{ . }}{{ else }}This is not the page you are looking for.{{ end }}</h3>
+            </header>
+            <center><div class="ascii">
+          ___
+         /---\
+        | @ @:|
+        |  " :|
+         \_-_/
+       _.d._.b.__
+   +"i\  |\_/|  /i"+  
+   [_| \ |   | / |_]  
+  .' |  ):===:(  | `. 
+  |:.'+-" | | "-+`.:| 
+  |_| |-. |_|   | |_|       ,-----.
+  \:\ |-' /+\   ! |:|     ,'_/_|_\_`.
+   \ \|n._\+/_.n| / /    /&lt;&lt;::8[O]::&gt;\
+    \XT::::-::::T/ /    _|-----------|_
+     "l-. `"' .-lXX    |  | ====-=- |  |
+      |: \   / :|      |  | -=-==== |  |
+      |:  i-i  :|      \  | ::::|()||  /
+      |:  | |  :|       | | ....|()|| |
+      |:  | |  :|       | |_________| |
+     \|;_ | |__;|/      | |\_______/| | 
+      (__() ()__)      /   \ /   \ /   \  
+      |:  | |  :|      `---' `---' `---'  
+            </div></center>
+        </article>
+        <footer id="post-meta" class="clearfix">
+            {{ with .Site.Params.twitter }}<a href="https://twitter.com/{{ . }}">{{ end }}
+                    <img class="avatar" src="{{ .Site.BaseURL }}images/hanko.png">
+                    <div>
+                        <span class="dark">Hamza “Tenchi” Haiken</span>
+                        <span>{{ .Site.Params.aboutAuthor }}</span>
+                    </div>
+                {{ with .Site.Params.twitter }}</a>{{ end }}
+            <section id="sharing">
+                {{ partial "share.html" . }}
+            </section>
+        </footer>
+        {{ partial "latest-posts.html" . }}
+
+        {{ partial "footer.html" . }}
+    </section>
+    </body>
+</html>
