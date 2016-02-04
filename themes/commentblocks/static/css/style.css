@@ -54,8 +54,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-weight: 400 !important;
 }
 
-/* Base */
-html, body { height: 100%; }
+html {
+    overflow-y: scroll;
+}
 
 body {
     font:16px/1 "Roboto Mono";
