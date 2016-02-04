@@ -127,7 +127,7 @@ h2 {
 }
 
 nav.main-nav {
-    padding: 10px;
+    padding: 10px 15px;
     background: #fff;
     background: rgba(255,255,255,.90);
     margin: 0 auto;
@@ -139,8 +139,8 @@ nav.main-nav {
 
 nav.main-nav a {
     display: inline-block;
-    margin: 0 -3px;
-    padding: 6px;
+    margin: 0 -6px;
+    padding: 12px;
     font-size: 16px;
     line-height: 1.35;
     border-radius: 4px;
@@ -691,6 +691,8 @@ h2.month {
 
 /* Media Queries */
 @media screen and (max-width: 540px) {
+    nav.main-nav { padding: 10px; }
+    nav.main-nav a { margin: 0 -3px; padding: 6px; font-size: 14px; }
     #wrapper { padding:20px 20px 20px 20px;}
     #header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
     .post { margin: 40px 0; }
