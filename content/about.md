@@ -29,3 +29,4 @@ This blog was made thanks to
 - [Hugo](https://gohugo.io)
 - [hugo-cactus-theme](https://github.com/digitalcraftsman/hugo-cactus-theme)
 - [git-directory-deploy](https://github.com/X1011/git-directory-deploy)
+- [Zodiac](https://github.com/jnicol/particleground/pull/15)
