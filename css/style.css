@@ -712,7 +712,7 @@ h2.month {
 }
 
 p a,
-li a {
+article li a {
     border-radius: 4px;
     padding-bottom: 1px;
     margin-left: -3px;
@@ -723,7 +723,7 @@ li a {
 
 p a:hover,
 nav.main-nav a:hover,
-li a:hover {
+article li a:hover {
     background-color: #5694f1;
     color: white;
 }
