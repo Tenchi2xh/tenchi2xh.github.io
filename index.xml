@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COMMENT BLOCKS</title>
-    <link>http://tenchi2xh.github.io/</link>
+    <link>http://tenchi.team2xh.net/</link>
     <description>Recent content on COMMENT BLOCKS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Feb 2016 00:21:49 +0100</lastBuildDate>
-    <atom:link href="http://tenchi2xh.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tenchi.team2xh.net/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>http://tenchi2xh.github.io/about/</link>
+      <link>http://tenchi.team2xh.net/about/</link>
       <pubDate>Thu, 04 Feb 2016 00:21:49 +0100</pubDate>
       
-      <guid>http://tenchi2xh.github.io/about/</guid>
+      <guid>http://tenchi.team2xh.net/about/</guid>
       <description>
 
 &lt;h1 id=&#34;me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Me&lt;/h1&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>This is a test</title>
-      <link>http://tenchi2xh.github.io/test/</link>
+      <link>http://tenchi.team2xh.net/test/</link>
       <pubDate>Wed, 03 Feb 2016 23:55:37 +0100</pubDate>
       
-      <guid>http://tenchi2xh.github.io/test/</guid>
+      <guid>http://tenchi.team2xh.net/test/</guid>
       <description>
 
 &lt;h1 id=&#34;aethera-in-dives-et-animalia-recepi:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;Aethera in dives et animalia recepi&lt;/h1&gt;
