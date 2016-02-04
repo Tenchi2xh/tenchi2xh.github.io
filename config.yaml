@@ -11,7 +11,7 @@ pygmentsOptions:            linenos=table
 
 metaDataFormat:             yaml
 googleAnalytics:            
-disqusShortname:            
+disqusShortname:            commentblocks
 publishdir:                 dist
 
 params:
