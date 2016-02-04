@@ -25,14 +25,17 @@
 
 &lt;ul&gt;
 &lt;li&gt;Text files&lt;/li&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;Scala&lt;/li&gt;
 &lt;li&gt;Code golfing&lt;/li&gt;
-&lt;li&gt;The game of Go&lt;/li&gt;
-&lt;li&gt;Customizing everything&lt;/li&gt;
-&lt;li&gt;Street fighter&lt;/li&gt;
+&lt;li&gt;The game of Go (~5k)&lt;/li&gt;
+&lt;li&gt;Customizing &lt;em&gt;everything&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Street Fighter&lt;/li&gt;
+&lt;li&gt;Python, Scala, Typescript&lt;/li&gt;
 &lt;li&gt;Font kerning&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Interested in talking about one of these subjects?&lt;/p&gt;
+
+&lt;p&gt;Hit me up by mail down below :)&lt;/p&gt;
 
 &lt;h1 id=&#34;credits:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Credits&lt;/h1&gt;
 
@@ -41,6 +44,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-cactus-theme&#34;&gt;hugo-cactus-theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/X1011/git-directory-deploy&#34;&gt;git-directory-deploy&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
