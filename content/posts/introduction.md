@@ -6,9 +6,11 @@ title: Introduction
 
 Welcome to `/* COMMENT BLOCKS */`, my little web log where I will share with you everything about the progress on my *personal projects*, as well as interesting challenges, findings or techniques regarding *programming*, and other random stuff.
 
-# Me
+# Me, me, me...
 
-My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hanko.png" /> on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby.
+> “Me too!” -- Agent Smith
+
+My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hanko.png" /> on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby (and optionally as a job).
 
 I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.
 
@@ -16,15 +18,15 @@ Also, I happen to be the only member of *team2xh* <img class="inline-image" src=
 
 What do I like? Prototyping crazy ideas, coding my way through life, discovering new technologies but also very old ones. Language wise, I really enjoy developing in *Python* and *Scala*. I enjoy putting to code everything that crosses my mind and trying new ideas.
 
-I also play [Go](https://en.wikipedia.org/wiki/Go_%28game%29), where my rank seems to hover at around 5 kyu, and like to play VS-Fighting games like Street Fighter on my home made arcade stick.
+I also play [Go](https://en.wikipedia.org/wiki/Go_%28game%29), where my rank seems to hover at around 5kyu, and like to play VS-Fighting games like Street Fighter on my home made arcade stick.
 
-Recently, I grew to like [Pyth](https://github.com/isaacg1/pyth), a [code golfing](codegolf.stackexchange.com) language, trying to solve puzzles with the shortest code possible. Just to get an idea of how concise the language was aimed to be, here is my version of a program that will output a zoomed-out plot of the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set), coded with only 72 characters:
+Recently, I grew to like [Pyth](https://github.com/isaacg1/pyth), a [code golfing](codegolf.stackexchange.com) language, trying to solve puzzles with the shortest code possible. Just to get an idea of how concise the language is aiming to be, here is my take on a program that will output a zoomed-out plot of the [Mandelbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set), coded in only 72 characters:
 
 ```
 =k_smCdr32+32yTK23DvbJbVyT=J+*JJbI>.aJTRN)RNVr_KKsm@kv.jcd30cN15r_+TyKK
 ```
 
-Which, when run with Pyth, outputs the following lines in the terminal (output was shortened a bit to fit the layout):
+Which, when run with Pyth, outputs the following lines in standard out (output was shortened a bit to fit the layout):
 
 ```
 111111111111111000000000000000/////..-,*"*&( .///000000000111111
@@ -56,9 +58,9 @@ Which, when run with Pyth, outputs the following lines in the terminal (output w
 
 # What to expect
 
-I think that the last example (and this whole introduction) will make you understand what kind of *nerd* I am (according to [jqno](http://www.jqno.nl/)), and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
+I think that the last example (and this whole introduction) will make you understand what kind of *nerd* I am (according to [@jqno](http://www.jqno.nl/)), and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
 
-I will try my best to write here regularly, and to give you a taste of what's to come, here's a non-exhaustive list of past and future projects I'd like to talk about:
+I will *try* my best to write here regularly, and to give you a taste of what's to come, here's a non-exhaustive list of past and future projects I'd like to talk about:
 
 - [Almonds](https://github.com/Tenchi2xh/Almonds), a terminal-based Mandelbrot set explorer (`pip install almonds`)
 - [Falcon](https://github.com/Tenchi2xh/Falcon), a music box punchcard writer
