@@ -52,7 +52,7 @@ Which, when run with Pyth, outputs the following lines in the terminal (output w
 111111111111111000000000000000/////..-,*"*&( .///000000000111111
 ```
 
-I think that this little example (and the whole introduction) will make you understand what kind of *geek* I am, and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
+I think that this little example (and the whole introduction) will make you understand what kind of *nerd* (according to [jqno](http://www.jqno.nl/)) I am, and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
 
 I will try my best to write here regularly, and to give you a taste of what's to come, here's a non-exhaustive list of past and future projects I'd like to talk about:
 
