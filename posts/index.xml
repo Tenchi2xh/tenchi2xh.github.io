@@ -19,9 +19,13 @@
 
 &lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;
 
-&lt;h1 id=&#34;me:2767292a573dc549b9b4297b701af3ab&#34;&gt;Me&lt;/h1&gt;
+&lt;h1 id=&#34;me-me-me:2767292a573dc549b9b4297b701af3ab&#34;&gt;Me, me, me&amp;hellip;&lt;/h1&gt;
 
-&lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;img class=&#34;inline-image&#34; src=&#34;http://tenchi.team2xh.net/images/hanko.png&#34; /&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Me too!” &amp;ndash; Agent Smith&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;img class=&#34;inline-image&#34; src=&#34;http://tenchi.team2xh.net/images/hanko.png&#34; /&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby (and optionally as a job).&lt;/p&gt;
 
 &lt;p&gt;I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.&lt;/p&gt;
 
@@ -29,13 +33,13 @@
 
 &lt;p&gt;What do I like? Prototyping crazy ideas, coding my way through life, discovering new technologies but also very old ones. Language wise, I really enjoy developing in &lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;Scala&lt;/em&gt;. I enjoy putting to code everything that crosses my mind and trying new ideas.&lt;/p&gt;
 
-&lt;p&gt;I also play &lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;Go&lt;/a&gt;, where my rank seems to hover at around 5 kyu, and like to play VS-Fighting games like Street Fighter on my home made arcade stick.&lt;/p&gt;
+&lt;p&gt;I also play &lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;Go&lt;/a&gt;, where my rank seems to hover at around 5kyu, and like to play VS-Fighting games like Street Fighter on my home made arcade stick.&lt;/p&gt;
 
-&lt;p&gt;Recently, I grew to like &lt;a href=&#34;https://github.com/isaacg1/pyth&#34;&gt;Pyth&lt;/a&gt;, a &lt;a href=&#34;codegolf.stackexchange.com&#34;&gt;code golfing&lt;/a&gt; language, trying to solve puzzles with the shortest code possible. Just to get an idea of how concise the language was aimed to be, here is my version of a program that will output a zoomed-out plot of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandelbrot_set&#34;&gt;Mandelbrot set&lt;/a&gt;, coded with only 72 characters:&lt;/p&gt;
+&lt;p&gt;Recently, I grew to like &lt;a href=&#34;https://github.com/isaacg1/pyth&#34;&gt;Pyth&lt;/a&gt;, a &lt;a href=&#34;codegolf.stackexchange.com&#34;&gt;code golfing&lt;/a&gt; language, trying to solve puzzles with the shortest code possible. Just to get an idea of how concise the language is aiming to be, here is my take on a program that will output a zoomed-out plot of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandelbrot_set&#34;&gt;Mandelbrot set&lt;/a&gt;, coded in only 72 characters:&lt;/p&gt;
 &lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;=k_smCdr32+32yTK23DvbJbVyT=J+*JJbI&amp;gt;.aJTRN)RNVr_KKsm@kv.jcd30cN15r_+TyKK
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;p&gt;Which, when run with Pyth, outputs the following lines in the terminal (output was shortened a bit to fit the layout):&lt;/p&gt;
+&lt;p&gt;Which, when run with Pyth, outputs the following lines in standard out (output was shortened a bit to fit the layout):&lt;/p&gt;
 &lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt; 1
  2
  3
@@ -89,9 +93,9 @@
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;h1 id=&#34;what-to-expect:2767292a573dc549b9b4297b701af3ab&#34;&gt;What to expect&lt;/h1&gt;
 
-&lt;p&gt;I think that the last example (and this whole introduction) will make you understand what kind of &lt;em&gt;nerd&lt;/em&gt; I am (according to &lt;a href=&#34;http://www.jqno.nl/&#34;&gt;jqno&lt;/a&gt;), and, if you get the feeling you&amp;rsquo;ll learn a thing or two, please enjoy reading my other posts :)&lt;/p&gt;
+&lt;p&gt;I think that the last example (and this whole introduction) will make you understand what kind of &lt;em&gt;nerd&lt;/em&gt; I am (according to &lt;a href=&#34;http://www.jqno.nl/&#34;&gt;@jqno&lt;/a&gt;), and, if you get the feeling you&amp;rsquo;ll learn a thing or two, please enjoy reading my other posts :)&lt;/p&gt;
 
-&lt;p&gt;I will try my best to write here regularly, and to give you a taste of what&amp;rsquo;s to come, here&amp;rsquo;s a non-exhaustive list of past and future projects I&amp;rsquo;d like to talk about:&lt;/p&gt;
+&lt;p&gt;I will &lt;em&gt;try&lt;/em&gt; my best to write here regularly, and to give you a taste of what&amp;rsquo;s to come, here&amp;rsquo;s a non-exhaustive list of past and future projects I&amp;rsquo;d like to talk about:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Tenchi2xh/Almonds&#34;&gt;Almonds&lt;/a&gt;, a terminal-based Mandelbrot set explorer (&lt;code&gt;pip install almonds&lt;/code&gt;)&lt;/li&gt;
