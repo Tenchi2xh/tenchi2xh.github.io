@@ -6,13 +6,13 @@ title: About
 
 # Me
 
-Programmer from Switzerland, now living in the Netherlands.
+Programmer from Switzerland, now living in the Netherlands. You can read more about me in my [Introcution](/posts/introduction).
 
 Here is a random list of things I like:
 
 - Text files
 - Code golfing
-- The game of Go (~5k)
+- [The game of Go](https://en.wikipedia.org/wiki/Go_%28game%29) (~5k)
 - Customizing *everything*
 - Street Fighter
 - Python, Scala, Typescript
