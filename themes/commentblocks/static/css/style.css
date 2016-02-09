@@ -756,3 +756,8 @@ article li a:hover {
     width: auto;
     border-radius: 3px;
 }
+
+.footnote-ref {
+    vertical-align: super;
+    font-size: 0.83em;
+}
