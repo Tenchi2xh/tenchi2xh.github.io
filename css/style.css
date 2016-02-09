@@ -289,10 +289,17 @@ p.small {
 }
 
 blockquote {
+    font-style: italic;
     padding-left: 15px;
-    border-left: 3px solid #eee;
-    background-color: rgba(225, 225, 225, 0.3);
+    margin-bottom: 20px;
+    border-left: 6px solid #eee;
+    background-color: rgba(225, 225, 225, 0.2);
     color: #999;
+}
+
+blockquote p {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 hr {
