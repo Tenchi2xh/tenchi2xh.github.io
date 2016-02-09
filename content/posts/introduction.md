@@ -6,7 +6,7 @@ title: Introduction
 
 Welcome to `/* COMMENT BLOCKS */`, my little web log where I will share with you everything about the progress on my *personal projects*, as well as interesting challenges, findings or techniques regarding *programming*, and other random stuff.
 
-My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hanko.png" /> on the internet). I have been programming and tinkering with computer ever since I was little and continue doing so every day as a hobby.
+My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hanko.png" /> on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby.
 
 I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.
 
