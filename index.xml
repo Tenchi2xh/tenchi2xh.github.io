@@ -15,7 +15,11 @@
       <pubDate>Mon, 08 Feb 2016 19:41:05 +0100</pubDate>
       
       <guid>http://tenchi.team2xh.net/posts/introduction/</guid>
-      <description>&lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;
+
+&lt;h1 id=&#34;me:2767292a573dc549b9b4297b701af3ab&#34;&gt;Me&lt;/h1&gt;
 
 &lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;img class=&#34;inline-image&#34; src=&#34;http://tenchi.team2xh.net/images/hanko.png&#34; /&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby.&lt;/p&gt;
 
@@ -83,7 +87,9 @@
 111111111111111000000000000000/////..-,*&amp;quot;*&amp;amp;( .///000000000111111
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;p&gt;I think that this little example (and the whole introduction) will make you understand what kind of &lt;em&gt;nerd&lt;/em&gt; (according to &lt;a href=&#34;http://www.jqno.nl/&#34;&gt;jqno&lt;/a&gt;) I am, and, if you get the feeling you&amp;rsquo;ll learn a thing or two, please enjoy reading my other posts :)&lt;/p&gt;
+&lt;h1 id=&#34;what-to-expect:2767292a573dc549b9b4297b701af3ab&#34;&gt;What to expect&lt;/h1&gt;
+
+&lt;p&gt;I think that the last example (and this whole introduction) will make you understand what kind of &lt;em&gt;nerd&lt;/em&gt; (according to &lt;a href=&#34;http://www.jqno.nl/&#34;&gt;jqno&lt;/a&gt;) I am, and, if you get the feeling you&amp;rsquo;ll learn a thing or two, please enjoy reading my other posts :)&lt;/p&gt;
 
 &lt;p&gt;I will try my best to write here regularly, and to give you a taste of what&amp;rsquo;s to come, here&amp;rsquo;s a non-exhaustive list of past and future projects I&amp;rsquo;d like to talk about:&lt;/p&gt;
 
