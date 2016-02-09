@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>COMMENT BLOCKS</title>
-    <link>http://tenchi.team2xh.net/</link>
-    <description>Recent content on COMMENT BLOCKS</description>
+    <title>Posts on COMMENT BLOCKS</title>
+    <link>http://tenchi.team2xh.net/posts/</link>
+    <description>Recent content in Posts on COMMENT BLOCKS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Feb 2016 19:41:05 +0100</lastBuildDate>
-    <atom:link href="http://tenchi.team2xh.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://tenchi.team2xh.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introduction</title>
@@ -101,47 +101,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;If you see something you like or have a question, &lt;em&gt;feel free&lt;/em&gt; to comment using the comment form (you don&amp;rsquo;t need a Disqus account), or mail me!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://tenchi.team2xh.net/about/</link>
-      <pubDate>Thu, 04 Feb 2016 00:21:49 +0100</pubDate>
-      
-      <guid>http://tenchi.team2xh.net/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Me&lt;/h1&gt;
-
-&lt;p&gt;Programmer from Switzerland, now living in the Netherlands. You can read more about me in my &lt;a href=&#34;http://tenchi.team2xh.net/posts/introduction&#34;&gt;Introcution&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here is a random list of things I like:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Text files&lt;/li&gt;
-&lt;li&gt;Code golfing&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;The game of Go&lt;/a&gt; (~5k)&lt;/li&gt;
-&lt;li&gt;Customizing &lt;em&gt;everything&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Street Fighter&lt;/li&gt;
-&lt;li&gt;Python, Scala, Typescript&lt;/li&gt;
-&lt;li&gt;Font kerning&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Interested in talking about one of these subjects?&lt;/p&gt;
-
-&lt;p&gt;Hit me up by mail down below :)&lt;/p&gt;
-
-&lt;h1 id=&#34;credits:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Credits&lt;/h1&gt;
-
-&lt;p&gt;This blog was made thanks to&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-cactus-theme&#34;&gt;hugo-cactus-theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/X1011/git-directory-deploy&#34;&gt;git-directory-deploy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jnicol/particleground/pull/15&#34;&gt;Zodiac&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
