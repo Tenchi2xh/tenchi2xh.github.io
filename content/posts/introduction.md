@@ -56,7 +56,7 @@ Which, when run with Pyth, outputs the following lines in the terminal (output w
 
 # What to expect
 
-I think that the last example (and this whole introduction) will make you understand what kind of *nerd* (according to [jqno](http://www.jqno.nl/)) I am, and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
+I think that the last example (and this whole introduction) will make you understand what kind of *nerd* I am (according to [jqno](http://www.jqno.nl/)), and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
 
 I will try my best to write here regularly, and to give you a taste of what's to come, here's a non-exhaustive list of past and future projects I'd like to talk about:
 
