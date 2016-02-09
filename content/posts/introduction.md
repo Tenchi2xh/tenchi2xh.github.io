@@ -6,6 +6,8 @@ title: Introduction
 
 Welcome to `/* COMMENT BLOCKS */`, my little web log where I will share with you everything about the progress on my *personal projects*, as well as interesting challenges, findings or techniques regarding *programming*, and other random stuff.
 
+# Me
+
 My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hanko.png" /> on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby.
 
 I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.
@@ -52,7 +54,9 @@ Which, when run with Pyth, outputs the following lines in the terminal (output w
 111111111111111000000000000000/////..-,*"*&( .///000000000111111
 ```
 
-I think that this little example (and the whole introduction) will make you understand what kind of *nerd* (according to [jqno](http://www.jqno.nl/)) I am, and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
+# What to expect
+
+I think that the last example (and this whole introduction) will make you understand what kind of *nerd* (according to [jqno](http://www.jqno.nl/)) I am, and, if you get the feeling you'll learn a thing or two, please enjoy reading my other posts :)
 
 I will try my best to write here regularly, and to give you a taste of what's to come, here's a non-exhaustive list of past and future projects I'd like to talk about:
 
