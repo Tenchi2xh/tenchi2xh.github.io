@@ -195,14 +195,14 @@ li  { list-style-type:circle; list-style-position:inside; }
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
-b, strong { font-weight: 500;
+b, strong { font-weight: 700;
   color: #1E2025; }
 em, i { font-style: italic; }
 
 #title {
     display: inline-block;
     line-height: 100%;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 19px;
     margin: 0;
     padding-bottom: 20px;
@@ -528,7 +528,7 @@ Post List
 
 #post-meta div span {
     color: #aaa;
-    font-weight: 500;
+    font-weight: 400;
     display: block;
 }
 
@@ -568,7 +568,7 @@ Post List
     text-align:center;
     padding-top:20px;
     font-size:13px;
-    font-weight:500;
+    font-weight:700;
     margin-top: 40px;
 }
 
@@ -755,4 +755,9 @@ article li a:hover {
     margin-bottom: -0.4em;
     width: auto;
     border-radius: 3px;
+}
+
+.footnote-ref {
+    vertical-align: super;
+    font-size: 0.83em;
 }
