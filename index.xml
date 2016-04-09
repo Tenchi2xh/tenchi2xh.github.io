@@ -6,8 +6,129 @@
     <description>Recent content on COMMENT BLOCKS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Feb 2016 19:41:05 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 Apr 2016 01:10:08 +0200</lastBuildDate>
     <atom:link href="http://tenchi.team2xh.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>HTML Terminal Snapshots</title>
+      <link>http://tenchi.team2xh.net/posts/terminal-to-html/</link>
+      <pubDate>Sat, 09 Apr 2016 01:10:08 +0200</pubDate>
+      
+      <guid>http://tenchi.team2xh.net/posts/terminal-to-html/</guid>
+      <description>
+
+&lt;p&gt;In preparation for my future posts, I needed to devise a way to export the output of &lt;em&gt;terminal commands&lt;/em&gt; to formatted HTML (including colors). While I&amp;rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.&lt;/p&gt;
+
+&lt;h2 id=&#34;first-attempt:cf586c02d30bc8a860ee8c9eb1c9c648&#34;&gt;First attempt&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x2318;+C, &amp;#x2318;+V&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My research first led me to an &lt;em&gt;OS X only&lt;/em&gt; version. The clipboard management of OS X has support for rich text copy and paste, through the RTF format. I could just run a command in the Terminal application, copy and paste the output to TextEdit, and save as an HTML file.&lt;/p&gt;
+
+&lt;p&gt;Although this solution worked, it had major caveats:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;It is a tedious process and can&amp;rsquo;t be automated&lt;/li&gt;
+&lt;li&gt;The generated HTML output is not really helpful for this blog:
+
+&lt;ul&gt;
+&lt;li&gt;All colors and properties defined in generated styles in &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Automatically generated style names makes it impossible to paste multiple snapshots in a single post&lt;/li&gt;
+&lt;li&gt;Not in a &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tag, spaces are wrapped in styled spans&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Not really portable!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;an-answer-from-the-experts:cf586c02d30bc8a860ee8c9eb1c9c648&#34;&gt;&lt;em&gt;An answer from the experts&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called &lt;a href=&#34;http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php&#34;&gt;ansifilter&lt;/a&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, which translates &lt;em&gt;ANSI escape codes&lt;/em&gt; (we&amp;rsquo;re gonna see a lot more of these in future posts :)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; to either formats such as HTML, RTF and even LaTeX.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s more, &lt;code&gt;ansifilter&lt;/code&gt; generates clean HTML, uses &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and can produce either a standalone HTML file or only the contents of the &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tag. I can now present to you, anytime I want, &lt;strong&gt;&lt;em&gt;glorious terminal snapshots&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;table class=&#34;highlighttable&#34;&gt;
+    &lt;td&gt;
+        &lt;pre&gt;
+$ cowsay -e &#39;&amp;gt;o&#39; &#39;Howdy, readers!&#39; | lolcat -F 0.4
+&lt;span style=&#34;color:#00d7d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;
+&lt;span style=&#34;color:#00ffaf;&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;H&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;y&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;s&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#5fff5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;
+&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;^&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;^&lt;/span&gt;
+&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;_&lt;/span&gt;
+&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;\&lt;/span&gt;
+&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;|&lt;/span&gt;
+&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#00d7d7;&#34;&gt;|&lt;/span&gt;
+&lt;/pre&gt;
+    &lt;/td&gt;
+&lt;/table&gt;
+
+&lt;p&gt;All I had to do now was to create some useful aliases:&lt;/p&gt;
+&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;alias html&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ansifilter -H -f&amp;quot;&lt;/span&gt;
+&lt;span style=&#34;color: #f8f8f2&#34;&gt;alias copyhtml&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;html | pbcopy&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;Running any command and piping its output to &lt;code&gt;copyhtml&lt;/code&gt; would now place a nicely colored HTML output in my clipboard, ready to paste anywhere. Piping to &lt;code&gt;html&lt;/code&gt; would output the formated HTML to &lt;code&gt;stdout&lt;/code&gt; enabling you to further pipe into other commands.&lt;/p&gt;
+
+&lt;p&gt;The last step to make this process even quicker with &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, my blog builder, was to create a template to avoid having to manually wrap my pasted snippet with opening and closing tags for the formatting:&lt;/p&gt;
+
+&lt;p&gt;&lt;table class=&#34;highlighttable&#34;&gt;
+    &lt;td&gt;
+        &lt;pre&gt;
+$ pless layouts/shortcodes/term.html
+&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;table&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afd700;&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#d7d787;&#34;&gt;&amp;quot;highlighttable&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;td&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#ffffff;&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;pre&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;{{ .Inner }}&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
+&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+    &lt;/td&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;code&gt;pless&lt;/code&gt; is a custom command that has a &lt;code&gt;less&lt;/code&gt; behavior while highlighting code syntax with &lt;code&gt;pygments&lt;/code&gt;, more on that in later posts!)&lt;/p&gt;
+
+&lt;p&gt;Thanks to that template, I now have a really nice work flow for writing my Markdown posts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Run the command I want to demo, pipe it to &lt;code&gt;copyhtml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to my Markdown article, open a &lt;code&gt;{{&amp;lt; term &amp;gt;}}&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;Paste&lt;/li&gt;
+&lt;li&gt;???&lt;/li&gt;
+&lt;li&gt;Profit!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;clever-pipes:cf586c02d30bc8a860ee8c9eb1c9c648&#34;&gt;Clever pipes&lt;/h2&gt;
+
+&lt;p&gt;In actuality, I had to cheat to produce the above example (sorry). Some programs like &lt;code&gt;ls&lt;/code&gt; or &lt;a href=&#34;https://github.com/busyloop/lolcat&#34;&gt;lolcat&lt;/a&gt; will detect if their &lt;code&gt;stdout&lt;/code&gt; is connected to a tty or not, stripping all ANSI escape codes in the latter case.&lt;/p&gt;
+
+&lt;p&gt;Enter the &lt;code&gt;unbuffer&lt;/code&gt; command from the &lt;code&gt;expect&lt;/code&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; software suite:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;unbuffer disables the output buffering that occurs when program output is redirected from non-interactive programs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The commands I really ran were:&lt;/p&gt;
+&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
+2
+3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;cowsay -e &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;&amp;gt;o&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Howdy, readers!&amp;#39;&lt;/span&gt; &amp;gt; tmp
+unbuffer lolcat -F 0.4 tmp &lt;span style=&#34;color: #f8f8f2&#34;&gt;|&lt;/span&gt; copyhtml
+rm tmp
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;But, for most cases, &lt;code&gt;command | copyhtml&lt;/code&gt; is enough :)&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av&#34;&gt;&lt;code&gt;ansifilter&lt;/code&gt; is available on &lt;code&gt;brew&lt;/code&gt; if you&amp;rsquo;re on a Mac &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co&#34;&gt;&lt;a href=&#34;http://www.xkcd.com/541/&#34;&gt;http://www.xkcd.com/541/&lt;/a&gt; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o&#34;&gt;Also available on &lt;code&gt;brew&lt;/code&gt; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction</title>
