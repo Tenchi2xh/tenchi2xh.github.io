@@ -1,8 +1,9 @@
 <table class="highlighttable">
     <tr>
         <td>
-            <div class="linenodiv" style="width: 0">
-                <pre>{{ .Inner }}</pre>
+            <div class="linenodiv">
+                <pre style="text-align: right">{{ range $i, $e := after 2 (split .Inner "\n") }}{{ $i }}
+{{ end }}</pre>
             </div>            
         </td>
         <td class="code">
@@ -10,5 +11,5 @@
                 <pre>{{ .Inner }}</pre>
             </div>
         </td>
-    <tr>
+    </tr>
 </table>
