@@ -15,6 +15,7 @@ $(document).ready(function() {
         $('.highlighttable').each(function(i, element) {
             var newTable = $('<div class="highlighttable">').html($(element).html());
             $(element).replaceWith(newTable);
+            $('.highlighttable').css('margin-bottom', '20px');
         });
     }
 });

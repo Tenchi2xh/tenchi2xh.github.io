@@ -50,17 +50,16 @@
 &lt;table class=&#34;highlighttable&#34;&gt;
     &lt;tr&gt;
         &lt;td&gt;
-            &lt;div class=&#34;linenodiv&#34; style=&#34;width: 0&#34;&gt;
-                &lt;pre&gt;
-$ cowsay -e &#39;&amp;gt;o&#39; &#39;Howdy, readers!&#39; | lolcat -F 0.4
-&lt;span style=&#34;color:#00d7d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;
-&lt;span style=&#34;color:#00ffaf;&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;H&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;y&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;s&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#5fff5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;
-&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;^&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;^&lt;/span&gt;
-&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;_&lt;/span&gt;
-&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;\&lt;/span&gt;
-&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;|&lt;/span&gt;
-&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#00d7d7;&#34;&gt;|&lt;/span&gt;
+            &lt;div class=&#34;linenodiv&#34;&gt;
+                &lt;pre style=&#34;text-align: right&#34;&gt;0
+1
+2
+3
+4
+5
+6
+7
+8
 &lt;/pre&gt;
             &lt;/div&gt;            
         &lt;/td&gt;
@@ -79,8 +78,9 @@ $ cowsay -e &#39;&amp;gt;o&#39; &#39;Howdy, readers!&#39; | lolcat -F 0.4
 &lt;/pre&gt;
             &lt;/div&gt;
         &lt;/td&gt;
-    &lt;tr&gt;
+    &lt;/tr&gt;
 &lt;/table&gt;
+
 
 &lt;p&gt;All I had to do now was to create some useful aliases:&lt;/p&gt;
 &lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
@@ -95,16 +95,15 @@ $ cowsay -e &#39;&amp;gt;o&#39; &#39;Howdy, readers!&#39; | lolcat -F 0.4
 &lt;p&gt;&lt;table class=&#34;highlighttable&#34;&gt;
     &lt;tr&gt;
         &lt;td&gt;
-            &lt;div class=&#34;linenodiv&#34; style=&#34;width: 0&#34;&gt;
-                &lt;pre&gt;
-$ pless layouts/shortcodes/term.html
-&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;table&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afd700;&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#d7d787;&#34;&gt;&amp;quot;highlighttable&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;tr&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;td&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;            &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;pre&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;{{ .Inner }}&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
+            &lt;div class=&#34;linenodiv&#34;&gt;
+                &lt;pre style=&#34;text-align: right&#34;&gt;0
+1
+2
+3
+4
+5
+6
+7
 &lt;/pre&gt;
             &lt;/div&gt;            
         &lt;/td&gt;
@@ -122,8 +121,9 @@ $ pless layouts/shortcodes/term.html
 &lt;/pre&gt;
             &lt;/div&gt;
         &lt;/td&gt;
-    &lt;tr&gt;
-&lt;/table&gt;&lt;/p&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;
 
 &lt;p&gt;(&lt;code&gt;pless&lt;/code&gt; is a custom command that has a &lt;code&gt;less&lt;/code&gt; behavior while highlighting code syntax with &lt;code&gt;pygments&lt;/code&gt;, more on that in later posts!)&lt;/p&gt;
 
