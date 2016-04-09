@@ -53,9 +53,11 @@ The last step to make this process even quicker with [Hugo](http://gohugo.io/), 
 {{< term >}}
 $ pless layouts/shortcodes/term.html
 <span style="color:#ff005f;">&lt;table</span><span style="color:#ffffff;"> </span><span style="color:#afd700;">class=</span><span style="color:#d7d787;">&quot;highlighttable&quot;</span><span style="color:#ff005f;">&gt;</span>
-<span style="color:#ffffff;">    </span><span style="color:#ff005f;">&lt;td</span><span style="color:#ff005f;">&gt;</span>
-<span style="color:#ffffff;">        </span><span style="color:#ff005f;">&lt;pre</span><span style="color:#ff005f;">&gt;</span><span style="color:#ffffff;">{{ .Inner }}</span><span style="color:#ff005f;">&lt;/pre&gt;</span>
-<span style="color:#ffffff;">    </span><span style="color:#ff005f;">&lt;/td&gt;</span>
+<span style="color:#ffffff;">    </span><span style="color:#ff005f;">&lt;tr</span><span style="color:#ff005f;">&gt;</span>
+<span style="color:#ffffff;">        </span><span style="color:#ff005f;">&lt;td</span><span style="color:#ff005f;">&gt;</span>
+<span style="color:#ffffff;">            </span><span style="color:#ff005f;">&lt;pre</span><span style="color:#ff005f;">&gt;</span><span style="color:#ffffff;">{{ .Inner }}</span><span style="color:#ff005f;">&lt;/pre&gt;</span>
+<span style="color:#ffffff;">        </span><span style="color:#ff005f;">&lt;/td&gt;</span>
+<span style="color:#ffffff;">    </span><span style="color:#ff005f;">&lt;/tr&gt;</span>
 <span style="color:#ff005f;">&lt;/table&gt;</span>
 {{< /term >}}
 
