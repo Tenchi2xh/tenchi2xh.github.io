@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Fira Code';
+    font-weight: 300;
+    font-style: normal;
+    src: url('firacode-light.eot');
+    src: url('firacode-light.eot?#iefix') format('embedded-opentype'),
+         url('firacode-light.woff2') format('woff2'),
+         url('firacode-light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    font-weight: 400;
+    font-style: normal;
+    src: url('firacode-regular.eot');
+    src: url('firacode-regular.eot?#iefix') format('embedded-opentype'),
+         url('firacode-regular.woff2') format('woff2'),
+         url('firacode-regular.woff') format('woff');
+}
