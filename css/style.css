@@ -374,7 +374,7 @@ span.code { font-family: "Roboto Mono"; background-color:#111111; font-size:14px
     padding-left: 0;
 }
 
-.linenodiv {
+.linenodiv, .console {
     padding: 0 !important;
     margin-right: 0;
 }
