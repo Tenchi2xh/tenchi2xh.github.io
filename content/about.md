@@ -11,11 +11,12 @@ Programmer from Switzerland, now living in the Netherlands. You can read more ab
 Here is a random list of things I like:
 
 - Text files
+- Terminals
 - Code golfing
 - [The game of Go](https://en.wikipedia.org/wiki/Go_%28game%29) (~5k)
 - Customizing *everything*
 - Street Fighter
-- Python, Scala, Typescript
+- Python, Scala
 - Font kerning
 
 Interested in talking about one of these subjects?
