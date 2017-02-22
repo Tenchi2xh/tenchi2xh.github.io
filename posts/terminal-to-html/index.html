@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Hamza Haiken">
 		<meta name="description" content="Posts about my free time projects">
-		<meta name="generator" content="Hugo 0.15" />
+		<meta name="generator" content="Hugo 0.18.1" />
 		<title>/* COMMENT BLOCKS: HTML TERMINAL SNAPSHOTS */</title>
 		<link rel="shortcut icon" href="http://tenchi.team2xh.net/images/favicon.png">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -44,7 +44,7 @@
 
 <p>In preparation for my future posts, I needed to devise a way to export the output of <em>terminal commands</em> to formatted HTML (including colors). While I&rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.</p>
 
-<h2 id="first-attempt:cf586c02d30bc8a860ee8c9eb1c9c648">First attempt</h2>
+<h2 id="first-attempt">First attempt</h2>
 
 <blockquote>
 <p>&#x2318;+C, &#x2318;+V</p>
@@ -66,9 +66,9 @@
 <li>Not really portable!</li>
 </ol>
 
-<h2 id="an-answer-from-the-experts:cf586c02d30bc8a860ee8c9eb1c9c648"><em>An answer from the experts</em></h2>
+<h2 id="an-answer-from-the-experts"><em>An answer from the experts</em></h2>
 
-<p>Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called <a href="http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php">ansifilter</a><sup class="footnote-ref" id="fnref:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av"><a rel="footnote" href="#fn:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av">1</a></sup>, which translates <em>ANSI escape codes</em> (we&rsquo;re gonna see a lot more of these in future posts :)<sup class="footnote-ref" id="fnref:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co"><a rel="footnote" href="#fn:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co">2</a></sup> to either formats such as HTML, RTF and even LaTeX.</p>
+<p>Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called <a href="http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php">ansifilter</a><sup class="footnote-ref" id="fnref:ansifilter-is-av"><a rel="footnote" href="#fn:ansifilter-is-av">1</a></sup>, which translates <em>ANSI escape codes</em> (we&rsquo;re gonna see a lot more of these in future posts :)<sup class="footnote-ref" id="fnref:http-www-xkcd-co"><a rel="footnote" href="#fn:http-www-xkcd-co">2</a></sup> to either formats such as HTML, RTF and even LaTeX.</p>
 
 <p>What&rsquo;s more, <code>ansifilter</code> generates clean HTML, uses <code>&lt;pre&gt;</code> and can produce either a standalone HTML file or only the contents of the <code>&lt;pre&gt;</code> tag. I can now present to you, anytime I want, <strong><em>glorious terminal snapshots</em></strong>:</p>
 
@@ -109,8 +109,8 @@ $ cowsay -e '&gt;o' 'Howdy, readers!' | lolcat -F 0.4
 
 <p>All I had to do now was to create some useful aliases:</p>
 <table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%">1
-2</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span style="color: #f8f8f2">alias html</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;ansifilter -H -f&quot;</span>
-<span style="color: #f8f8f2">alias copyhtml</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;html | pbcopy&quot;</span>
+2</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">alias</span> <span style="color: #f8f8f2">html</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;ansifilter -H -f&quot;</span>
+<span style="color: #f8f8f2">alias</span> <span style="color: #f8f8f2">copyhtml</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;html | pbcopy&quot;</span>
 </pre></div>
 </td></tr></table>
 <p>Running any command and piping its output to <code>copyhtml</code> would now place a nicely colored HTML output in my clipboard, ready to paste anywhere. Piping to <code>html</code> would output the formated HTML to <code>stdout</code> enabling you to further pipe into other commands.</p>
@@ -162,11 +162,11 @@ $ pless layouts/shortcodes/term.html
 <li>Profit!</li>
 </ul>
 
-<h2 id="clever-pipes:cf586c02d30bc8a860ee8c9eb1c9c648">Clever pipes</h2>
+<h2 id="clever-pipes">Clever pipes</h2>
 
 <p>In actuality, I had to cheat to produce the above example (sorry). Some programs like <code>ls</code> or <a href="https://github.com/busyloop/lolcat">lolcat</a> will detect if their <code>stdout</code> is connected to a tty or not, stripping all ANSI escape codes in the latter case.</p>
 
-<p>Enter the <code>unbuffer</code> command from the <code>expect</code><sup class="footnote-ref" id="fnref:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o"><a rel="footnote" href="#fn:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o">3</a></sup> software suite:</p>
+<p>Enter the <code>unbuffer</code> command from the <code>expect</code><sup class="footnote-ref" id="fnref:Also-available-o"><a rel="footnote" href="#fn:Also-available-o">3</a></sup> software suite:</p>
 
 <blockquote>
 <p>unbuffer disables the output buffering that occurs when program output is redirected from non-interactive programs.</p>
@@ -175,8 +175,8 @@ $ pless layouts/shortcodes/term.html
 <p>The commands I really ran were:</p>
 <table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%">1
 2
-3</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%">cowsay -e <span style="color: #e6db74">&#39;&gt;o&#39;</span> <span style="color: #e6db74">&#39;Howdy, readers!&#39;</span> &gt; tmp
-unbuffer lolcat -F 0.4 tmp <span style="color: #f8f8f2">|</span> copyhtml
+3</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span>cowsay -e <span style="color: #e6db74">&#39;&gt;o&#39;</span> <span style="color: #e6db74">&#39;Howdy, readers!&#39;</span> &gt; tmp
+unbuffer lolcat -F <span style="color: #ae81ff">0</span>.4 tmp <span style="color: #f8f8f2">|</span> copyhtml
 rm tmp
 </pre></div>
 </td></tr></table>
@@ -186,9 +186,9 @@ rm tmp
 <hr />
 
 <ol>
-<li id="fn:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av"><code>ansifilter</code> is available on <code>brew</code> if you&rsquo;re on a Mac <a class="footnote-return" href="#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:ansifilter-is-av"><sup>[return]</sup></a></li>
-<li id="fn:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co"><a href="http://www.xkcd.com/541/">http://www.xkcd.com/541/</a> <a class="footnote-return" href="#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:http-www-xkcd-co"><sup>[return]</sup></a></li>
-<li id="fn:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o">Also available on <code>brew</code> <a class="footnote-return" href="#fnref:cf586c02d30bc8a860ee8c9eb1c9c648:Also-available-o"><sup>[return]</sup></a></li>
+<li id="fn:ansifilter-is-av"><code>ansifilter</code> is available on <code>brew</code> if you&rsquo;re on a Mac <a class="footnote-return" href="#fnref:ansifilter-is-av"><sup>[return]</sup></a></li>
+<li id="fn:http-www-xkcd-co"><a href="http://www.xkcd.com/541/">http://www.xkcd.com/541/</a> <a class="footnote-return" href="#fnref:http-www-xkcd-co"><sup>[return]</sup></a></li>
+<li id="fn:Also-available-o">Also available on <code>brew</code> <a class="footnote-return" href="#fnref:Also-available-o"><sup>[return]</sup></a></li>
 </ol>
 </div>
 
@@ -231,6 +231,13 @@ rm tmp
     
         
         <li>
+            <a href="http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/">Zelda mechanical keyboard<aside class="dates">February 22 2017</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
             <a href="http://tenchi.team2xh.net/posts/terminal-to-html/">HTML Terminal Snapshots<aside class="dates">April 9 2016</aside></a>
         </li>
         
@@ -245,6 +252,20 @@ rm tmp
     
         
    
+    
+        
+        <li>
+            <a href="http://tenchi.team2xh.net/">COMMENT BLOCKS<aside class="dates">February 22 2017</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://tenchi.team2xh.net/posts/">Posts<aside class="dates">February 22 2017</aside></a>
+        </li>
+        
+   
 </ul>
             <footer id="footer">
     <div id="social">
@@ -257,7 +278,7 @@ rm tmp
 
     <p class="small">
     
-        © Copyright 2016 Hamza Haiken
+        © Copyright 2017 Hamza Haiken
     
     </p>
 </footer>

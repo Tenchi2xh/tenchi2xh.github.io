@@ -2,9 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tenchi.team2xh.net/</loc>
-    <lastmod>2016-04-09T01:10:08+02:00</lastmod>
-    <priority>0</priority>
+    <loc>http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</loc>
+    <lastmod>2017-02-22T10:44:35+01:00</lastmod>
   </url>
   
   <url>
@@ -20,6 +19,18 @@
   <url>
     <loc>http://tenchi.team2xh.net/about/</loc>
     <lastmod>2016-02-04T00:21:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tenchi.team2xh.net/</loc>
+    <lastmod>2017-02-22T10:44:35+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tenchi.team2xh.net/posts/</loc>
+    <lastmod>2017-02-22T10:44:35+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
