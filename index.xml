@@ -1,353 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COMMENT BLOCKS</title>
-    <link>http://tenchi.team2xh.net/index.xml</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on COMMENT BLOCKS</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Feb 2017 10:44:35 +0100</lastBuildDate>
-    <atom:link href="http://tenchi.team2xh.net/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zelda mechanical keyboard</title>
-      <link>http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</link>
+      <link>http://localhost:1313/posts/zelda-mechanical-keyboard/</link>
       <pubDate>Wed, 22 Feb 2017 10:44:35 +0100</pubDate>
-      
-      <guid>http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://tenchi.team2xh.net/img/keyboard/header.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I always wanted a second mechanical keyboard: for a long time I&amp;rsquo;ve had a &lt;a href=&#34;http://www.corsair.com/en-eu/vengeance-k90-performance-mmo-mechanical-gaming-keyboard&#34;&gt;Corsair K90&lt;/a&gt;, which is gaming focused. But for my daily work, I wanted something more oriented towards typing, and in a portable form-factor so that I can bring it to my workplace (I was currently using a wired &lt;a href=&#34;http://www.apple.com/uk/shop/product/MB110B/B/apple-keyboard-with-numeric-keypad-british&#34;&gt;Apple keyboard&lt;/a&gt; but that will just not cut it).&lt;/p&gt;
-
-&lt;p&gt;Everyday keyboards provide springiness to their keys by having a large rubber layer, subdivided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard&#34;&gt;dome shapes&lt;/a&gt;. The crux of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard&#34;&gt;mechanical keyboard&lt;/a&gt; lies in the fact that each key has its separate mechanical switch, which gives keys more depth and a more satisfying feedback.&lt;/p&gt;
-
-&lt;h2 id=&#34;keyboard-choice&#34;&gt;Keyboard choice&lt;/h2&gt;
-
-&lt;p&gt;There are multiple brands and types of switches. One of the most command brands is &lt;a href=&#34;https://deskthority.net/wiki/Cherry_MX&#34;&gt;Cherry MX&lt;/a&gt;: the K90 has Cherry MX red switches, which have a linear action (pressing the key feels the same all the way). For this new keyboard, I wanted Cherry MX clear switches, which give a tactile &lt;em&gt;bump&lt;/em&gt; when the switch actuates.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=http://www.wasdkeyboards.com/media/guide/graph-mx-red.jpg alt=&#34;Cherry MX red force travel diagram&#34; style=&#34;width: 200px&#34;/&gt; &lt;img src=http://www.wasdkeyboards.com/media/guide/graph-mx-clear.jpg alt=&#34;Cherry MX clear force travel diagram&#34; style=&#34;width: 200px&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;After investigating brands and reading reviews, I found that the folks at &lt;a href=&#34;http://www.wasdkeyboards.com/&#34;&gt;WASD Keyboards&lt;/a&gt; sell robust and portable mechanical keyboards that you can customize in almost every aspects (key colors, layout, form-factor and switches), so it was for me the perfect opportunity to get something unique to me.&lt;/p&gt;
-
-&lt;p&gt;For the design, I thought that having completely blank keycaps would be neat since I don&amp;rsquo;t look at them. I also wanted a clean all-black design.&lt;/p&gt;
-
-&lt;p&gt;But then I got the idea that using &lt;em&gt;fictional alphabet&lt;/em&gt; would amount to the same as blank keycaps, with the added benefit of looking nice. So I spent a few (many) nights designing one in &lt;a href=&#34;https://en.wikipedia.org/wiki/Inkscape&#34;&gt;Inkscape&lt;/a&gt;, whenever I found the time.&lt;/p&gt;
-
-&lt;p&gt;Being a big fan of Zelda, I went with the Hylian language (in particular the version from &lt;a href=&#34;http://www.omniglot.com/conscripts/hylian2.htm&#34;&gt;The Wind Waker&lt;/a&gt;). Strongly considered alternatives were: &lt;a href=&#34;http://www.omniglot.com/conscripts/klingon.htm&#34;&gt;Klingon&lt;/a&gt;, &lt;a href=&#34;http://www.omniglot.com/writing/tengwar.htm&#34;&gt;Tengwar&lt;/a&gt; and the &lt;a href=&#34;http://www.omniglot.com/conscripts/sga.htm&#34;&gt;Standard Galactic Alphabet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;designing&#34;&gt;Designing&lt;/h2&gt;
-
-&lt;p&gt;Since this alphabet is based around Japanese &lt;a href=&#34;https://en.wikipedia.org/wiki/Katakana&#34;&gt;katakana&lt;/a&gt;, I tried my best to mimic the &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_layout#Japanese&#34;&gt;Japanese keyboard layout&lt;/a&gt; (a few keys had to be swapped around due to the physical layout). The fonts I found around online only contained the glyphs visible in-game, which are the alphabet (46 syllables plus diacritics) and numbers, which left me with all the rest of the symbols to invent for myself.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the layout I came up with:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://tenchi.team2xh.net/img/keyboard/layout.png&#34; alt=&#34;The jp-HY layout&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For the inspiration of the symbols that I had to make up, I was mainly influenced by the Japanese kanjis for up and down, but inverted: &lt;code&gt;上&lt;/code&gt; and &lt;code&gt;下&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;I then used those basic arrows to make many variations with double lines or dots for &lt;kbd&gt;PgUp&lt;/kbd&gt;, &lt;kbd&gt;PgDn&lt;/kbd&gt;, &lt;kbd&gt;Home&lt;/kbd&gt;, &lt;kbd&gt;End&lt;/kbd&gt;, &lt;kbd&gt;⇧&lt;/kbd&gt;, &lt;kbd&gt;⇪&lt;/kbd&gt;, &lt;kbd&gt;↹&lt;/kbd&gt;, &lt;kbd&gt;⌫&lt;/kbd&gt; and &lt;kbd&gt;↵&lt;/kbd&gt;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;kbd&gt;Esc&lt;/kbd&gt; key is a Hylian variation of &lt;code&gt;止&lt;/code&gt;, the Japanese kanji for &amp;ldquo;stop&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;kbd&gt;Ctrl&lt;/kbd&gt;, &lt;kbd&gt;Alt&lt;/kbd&gt; and &lt;kbd&gt;Meta&lt;/kbd&gt; keys are transcribed from the Japanese spelling of the &lt;a href=&#34;https://zeldawiki.org/Golden_Goddesses&#34;&gt;three Goddesses&lt;/a&gt; in the mythology of Hyrule: &lt;em&gt;Din&lt;/em&gt; &lt;code&gt;ディン&lt;/code&gt;, &lt;em&gt;Nayru&lt;/em&gt; &lt;code&gt;ネール&lt;/code&gt; and &lt;em&gt;Farore&lt;/em&gt; &lt;code&gt;フロル&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The remainder of the keys are two-syllables verbs trying to describe what the key is for.&lt;/p&gt;
-
-&lt;p&gt;Finally, I branded the keyboard by adding my logo &lt;img class=&#34;inline-image&#34; src=&#34;http://tenchi.team2xh.net/images/hanko.png&#34; /&gt; to the space bar.&lt;/p&gt;
-
-&lt;p&gt;And here is the finished product:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://tenchi.team2xh.net/img/keyboard/keyboard1.png&#34; alt=&#34;Manufactured keyboard #1&#34; /&gt;
-&lt;img src=&#34;http://tenchi.team2xh.net/img/keyboard/keyboard2.png&#34; alt=&#34;Manufactured keyboard #2&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>http://localhost:1313/posts/zelda-mechanical-keyboard/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/keyboard/header.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I always wanted a second mechanical keyboard: for a long time I&amp;rsquo;ve had a &lt;a href=&#34;http://www.corsair.com/en-eu/vengeance-k90-performance-mmo-mechanical-gaming-keyboard&#34;&gt;Corsair K90&lt;/a&gt;, which is gaming focused. But for my daily work, I wanted something more oriented towards typing, and in a portable form-factor so that I can bring it to my workplace (I was currently using a wired &lt;a href=&#34;http://www.apple.com/uk/shop/product/MB110B/B/apple-keyboard-with-numeric-keypad-british&#34;&gt;Apple keyboard&lt;/a&gt; but that will just not cut it).&lt;/p&gt;&#xA;&lt;p&gt;Everyday keyboards provide springiness to their keys by having a large rubber layer, subdivided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard&#34;&gt;dome shapes&lt;/a&gt;. The crux of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard&#34;&gt;mechanical keyboard&lt;/a&gt; lies in the fact that each key has its separate mechanical switch, which gives keys more depth and a more satisfying feedback.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>HTML Terminal Snapshots</title>
-      <link>http://tenchi.team2xh.net/posts/terminal-to-html/</link>
+      <link>http://localhost:1313/posts/terminal-to-html/</link>
       <pubDate>Sat, 09 Apr 2016 01:10:08 +0200</pubDate>
-      
-      <guid>http://tenchi.team2xh.net/posts/terminal-to-html/</guid>
-      <description>
-
-&lt;p&gt;In preparation for my future posts, I needed to devise a way to export the output of &lt;em&gt;terminal commands&lt;/em&gt; to formatted HTML (including colors). While I&amp;rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.&lt;/p&gt;
-
-&lt;h2 id=&#34;first-attempt&#34;&gt;First attempt&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;#x2318;+C, &amp;#x2318;+V&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My research first led me to an &lt;em&gt;OS X only&lt;/em&gt; version. The clipboard management of OS X has support for rich text copy and paste, through the RTF format. I could just run a command in the Terminal application, copy and paste the output to TextEdit, and save as an HTML file.&lt;/p&gt;
-
-&lt;p&gt;Although this solution worked, it had major caveats:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;It is a tedious process and can&amp;rsquo;t be automated&lt;/li&gt;
-&lt;li&gt;The generated HTML output is not really helpful for this blog:
-
-&lt;ul&gt;
-&lt;li&gt;All colors and properties defined in generated styles in &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Automatically generated style names makes it impossible to paste multiple snapshots in a single post&lt;/li&gt;
-&lt;li&gt;Not in a &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tag, spaces are wrapped in styled spans&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Not really portable!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;an-answer-from-the-experts&#34;&gt;&lt;em&gt;An answer from the experts&lt;/em&gt;&lt;/h2&gt;
-
-&lt;p&gt;Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called &lt;a href=&#34;http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php&#34;&gt;ansifilter&lt;/a&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:ansifilter-is-av&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:ansifilter-is-av&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, which translates &lt;em&gt;ANSI escape codes&lt;/em&gt; (we&amp;rsquo;re gonna see a lot more of these in future posts :)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:http-www-xkcd-co&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:http-www-xkcd-co&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; to either formats such as HTML, RTF and even LaTeX.&lt;/p&gt;
-
-&lt;p&gt;What&amp;rsquo;s more, &lt;code&gt;ansifilter&lt;/code&gt; generates clean HTML, uses &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; and can produce either a standalone HTML file or only the contents of the &lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt; tag. I can now present to you, anytime I want, &lt;strong&gt;&lt;em&gt;glorious terminal snapshots&lt;/em&gt;&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;table class=&#34;highlighttable&#34;&gt;
-    &lt;tr&gt;
-        &lt;td&gt;
-            &lt;div class=&#34;linenodiv&#34;&gt;
-                &lt;pre style=&#34;text-align: right&#34;&gt;0
-1
-2
-3
-4
-5
-6
-7
-8
-&lt;/pre&gt;
-            &lt;/div&gt;            
-        &lt;/td&gt;
-        &lt;td class=&#34;code&#34;&gt;
-            &lt;div class=&#34;highlight&#34;&gt;
-                &lt;pre&gt;
-$ cowsay -e &#39;&amp;gt;o&#39; &#39;Howdy, readers!&#39; | lolcat -F 0.4
-&lt;span style=&#34;color:#00d7d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ffaf;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;
-&lt;span style=&#34;color:#00ffaf;&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00ff87;&#34;&gt;H&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;y&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;,&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;a&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;d&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;e&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;s&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#5fff5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5fff5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;
-&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#87ff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;^&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;^&lt;/span&gt;
-&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afff00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;_&lt;/span&gt;
-&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d7d700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt;_&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;)&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;\&lt;/span&gt;
-&lt;span style=&#34;color:#ffaf00;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt;w&lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt;|&lt;/span&gt;
-&lt;span style=&#34;color:#ff8700;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff5f5f;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff0087;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#ff00af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700af;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#d700d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00d7;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#af00ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#8700ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#875fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#5f5fff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#5f87ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#0087ff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00afff;&#34;&gt;|&lt;/span&gt;&lt;span style=&#34;color:#00d7d7;&#34;&gt;|&lt;/span&gt;
-&lt;/pre&gt;
-            &lt;/div&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-
-&lt;p&gt;All I had to do now was to create some useful aliases:&lt;/p&gt;
-&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
-2&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&#34;color: #f8f8f2&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;html&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;ansifilter -H -f&amp;quot;&lt;/span&gt;
-&lt;span style=&#34;color: #f8f8f2&#34;&gt;alias&lt;/span&gt; &lt;span style=&#34;color: #f8f8f2&#34;&gt;copyhtml&lt;/span&gt;&lt;span style=&#34;color: #f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color: #e6db74&#34;&gt;&amp;quot;html | pbcopy&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;p&gt;Running any command and piping its output to &lt;code&gt;copyhtml&lt;/code&gt; would now place a nicely colored HTML output in my clipboard, ready to paste anywhere. Piping to &lt;code&gt;html&lt;/code&gt; would output the formated HTML to &lt;code&gt;stdout&lt;/code&gt; enabling you to further pipe into other commands.&lt;/p&gt;
-
-&lt;p&gt;The last step to make this process even quicker with &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, my blog builder, was to create a template to avoid having to manually wrap my pasted snippet with opening and closing tags for the formatting:&lt;/p&gt;
-
-&lt;p&gt;&lt;table class=&#34;highlighttable&#34;&gt;
-    &lt;tr&gt;
-        &lt;td&gt;
-            &lt;div class=&#34;linenodiv&#34;&gt;
-                &lt;pre style=&#34;text-align: right&#34;&gt;0
-1
-2
-3
-4
-5
-6
-7
-&lt;/pre&gt;
-            &lt;/div&gt;            
-        &lt;/td&gt;
-        &lt;td class=&#34;code&#34;&gt;
-            &lt;div class=&#34;highlight&#34;&gt;
-                &lt;pre&gt;
-$ pless layouts/shortcodes/term.html
-&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;table&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#afd700;&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#d7d787;&#34;&gt;&amp;quot;highlighttable&amp;quot;&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;tr&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;td&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;            &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;pre&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ffffff;&#34;&gt;{{ .Inner }}&lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/pre&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;        &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/td&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ffffff;&#34;&gt;    &lt;/span&gt;&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/tr&amp;gt;&lt;/span&gt;
-&lt;span style=&#34;color:#ff005f;&#34;&gt;&amp;lt;/table&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;
-            &lt;/div&gt;
-        &lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/p&gt;
-
-&lt;p&gt;(&lt;code&gt;pless&lt;/code&gt; is a custom command that has a &lt;code&gt;less&lt;/code&gt; behavior while highlighting code syntax with &lt;code&gt;pygments&lt;/code&gt;, more on that in later posts!)&lt;/p&gt;
-
-&lt;p&gt;Thanks to that template, I now have a really nice work flow for writing my Markdown posts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Run the command I want to demo, pipe it to &lt;code&gt;copyhtml&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Go to my Markdown article, open a &lt;code&gt;{{&amp;lt; term &amp;gt;}}&lt;/code&gt; tag&lt;/li&gt;
-&lt;li&gt;Paste&lt;/li&gt;
-&lt;li&gt;???&lt;/li&gt;
-&lt;li&gt;Profit!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;clever-pipes&#34;&gt;Clever pipes&lt;/h2&gt;
-
-&lt;p&gt;In actuality, I had to cheat to produce the above example (sorry). Some programs like &lt;code&gt;ls&lt;/code&gt; or &lt;a href=&#34;https://github.com/busyloop/lolcat&#34;&gt;lolcat&lt;/a&gt; will detect if their &lt;code&gt;stdout&lt;/code&gt; is connected to a tty or not, stripping all ANSI escape codes in the latter case.&lt;/p&gt;
-
-&lt;p&gt;Enter the &lt;code&gt;unbuffer&lt;/code&gt; command from the &lt;code&gt;expect&lt;/code&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Also-available-o&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:Also-available-o&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; software suite:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;unbuffer disables the output buffering that occurs when program output is redirected from non-interactive programs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The commands I really ran were:&lt;/p&gt;
-&lt;table class=&#34;highlighttable&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;div class=&#34;linenodiv&#34; style=&#34;background-color: #f0f0f0; padding-right: 10px&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;1
-2
-3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;div class=&#34;highlight&#34; style=&#34;background: #272822&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span&gt;&lt;/span&gt;cowsay -e &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;&amp;gt;o&amp;#39;&lt;/span&gt; &lt;span style=&#34;color: #e6db74&#34;&gt;&amp;#39;Howdy, readers!&amp;#39;&lt;/span&gt; &amp;gt; tmp
-unbuffer lolcat -F &lt;span style=&#34;color: #ae81ff&#34;&gt;0&lt;/span&gt;.4 tmp &lt;span style=&#34;color: #f8f8f2&#34;&gt;|&lt;/span&gt; copyhtml
-rm tmp
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;p&gt;But, for most cases, &lt;code&gt;command | copyhtml&lt;/code&gt; is enough :)&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-
-&lt;hr /&gt;
-
-&lt;ol&gt;
-&lt;li id=&#34;fn:ansifilter-is-av&#34;&gt;&lt;code&gt;ansifilter&lt;/code&gt; is available on &lt;code&gt;brew&lt;/code&gt; if you&amp;rsquo;re on a Mac &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:ansifilter-is-av&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:http-www-xkcd-co&#34;&gt;&lt;a href=&#34;http://www.xkcd.com/541/&#34;&gt;http://www.xkcd.com/541/&lt;/a&gt; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:http-www-xkcd-co&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Also-available-o&#34;&gt;Also available on &lt;code&gt;brew&lt;/code&gt; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Also-available-o&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <guid>http://localhost:1313/posts/terminal-to-html/</guid>
+      <description>&lt;p&gt;In preparation for my future posts, I needed to devise a way to export the output of &lt;em&gt;terminal commands&lt;/em&gt; to formatted HTML (including colors). While I&amp;rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-attempt&#34;&gt;First attempt&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;⌘+C, ⌘+V&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;My research first led me to an &lt;em&gt;OS X only&lt;/em&gt; version. The clipboard management of OS X has support for rich text copy and paste, through the RTF format. I could just run a command in the Terminal application, copy and paste the output to TextEdit, and save as an HTML file.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Introduction</title>
-      <link>http://tenchi.team2xh.net/posts/introduction/</link>
+      <link>http://localhost:1313/posts/introduction/</link>
       <pubDate>Mon, 08 Feb 2016 19:41:05 +0100</pubDate>
-      
-      <guid>http://tenchi.team2xh.net/posts/introduction/</guid>
-      <description>
-
-&lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;
-
-&lt;h1 id=&#34;me-me-me&#34;&gt;Me, me, me&amp;hellip;&lt;/h1&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“Me too!” &amp;ndash; Agent Smith&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;img class=&#34;inline-image&#34; src=&#34;http://tenchi.team2xh.net/images/hanko.png&#34; /&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby (and optionally as a job).&lt;/p&gt;
-
-&lt;p&gt;I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.&lt;/p&gt;
-
-&lt;p&gt;Also, I happen to be the only member of &lt;em&gt;team2xh&lt;/em&gt; &lt;img class=&#34;inline-image&#34; src=&#34;http://team2xh.net/team2xh.png&#34; /&gt; which totally is a &lt;em&gt;real&lt;/em&gt; coding group that focuses on doing exactly what I like to do :o)&lt;/p&gt;
-
-&lt;p&gt;What do I like? Prototyping crazy ideas, coding my way through life, discovering new technologies but also very old ones. Language wise, I really enjoy developing in &lt;em&gt;Python&lt;/em&gt; and &lt;em&gt;Scala&lt;/em&gt;. I enjoy putting to code everything that crosses my mind and trying new ideas.&lt;/p&gt;
-
-&lt;p&gt;I also play &lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;Go&lt;/a&gt;, where my rank seems to hover at around 5kyu, and like to play VS-Fighting games like Street Fighter on my home made arcade stick.&lt;/p&gt;
-
-&lt;p&gt;Recently, I grew to like &lt;a href=&#34;https://github.com/isaacg1/pyth&#34;&gt;Pyth&lt;/a&gt;, a &lt;a href=&#34;codegolf.stackexchange.com&#34;&gt;code golfing&lt;/a&gt; language, trying to solve puzzles with the shortest code possible. Just to get an idea of how concise the language is aiming to be, here is my take on a program that will output a zoomed-out plot of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandelbrot_set&#34;&gt;Mandelbrot set&lt;/a&gt;, coded in only 72 characters:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;=k_smCdr32+32yTK23DvbJbVyT=J+*JJbI&amp;gt;.aJTRN)RNVr_KKsm@kv.jcd30cN15r_+TyKK
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Which, when run with Pyth, outputs the following lines in standard out (output was shortened a bit to fit the layout):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;111111111111111000000000000000/////..-,*&amp;quot;*&amp;amp;( .///000000000111111
-11111111111000000000000000///////...-,+*&#39; )+,-./////000000001111
-11110000000000000000///////.....--,+)       !),-...//////0000001
-10000000000000000///////..------,,+*(       $*+,---.....///00000
-0000000000000/////////..-+   )**&#39; &#39; $&amp;quot;     !$&amp;amp; ( ),,,,+#-.//0000
-0000000////////////....--+&#39;!   #                 $(( %% $-.//000
-000////////////......--,,*)%                           (,-.//000
-///..,(+,---,+,----,,,+)%                              &#39;**+.//00
-...--,+)&amp;amp;          ()($                                 &amp;amp;+-.///0
-.--,,*(&amp;amp;!           $%                                    -.///0
--+&amp;amp;*)(%                                                  ,..///0
-+*&#39;                                                    ),-..///0
-                                                     &#39;*,-..////0
-+*&#39;                                                    ),-..///0
--+&amp;amp;*)(%                                                  ,..///0
-.--,,*(&amp;amp;!           $%                                    -.///0
-...--,+)&amp;amp;          ()($                                 &amp;amp;+-.///0
-///..,(+,---,+,----,,,+)%                              &#39;**+.//00
-000////////////......--,,*)%                           (,-.//000
-0000000////////////....--+&#39;!   #                 $(( %% $-.//000
-0000000000000/////////..-+   )**&#39; &#39; $&amp;quot;     !$&amp;amp; ( ),,,,+#-.//0000
-10000000000000000///////..------,,+*(       $*+,---.....///00000
-11110000000000000000///////.....--,+)       !),-...//////0000001
-11111111111000000000000000///////...-,+*&#39; )+,-./////000000001111
-111111111111111000000000000000/////..-,*&amp;quot;*&amp;amp;( .///000000000111111
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;what-to-expect&#34;&gt;What to expect&lt;/h1&gt;
-
-&lt;p&gt;I think that the last example (and this whole introduction) will make you understand what kind of &lt;em&gt;nerd&lt;/em&gt; I am (according to &lt;a href=&#34;http://www.jqno.nl/&#34;&gt;@jqno&lt;/a&gt;), and, if you get the feeling you&amp;rsquo;ll learn a thing or two, I hope you&amp;rsquo;ll enjoy reading my upcoming posts! :)&lt;/p&gt;
-
-&lt;p&gt;I will &lt;em&gt;try&lt;/em&gt; my best to write here regularly, and to give you a taste of what&amp;rsquo;s to come, here&amp;rsquo;s a non-exhaustive list of past and future projects I&amp;rsquo;d like to talk about:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Tenchi2xh/Almonds&#34;&gt;Almonds&lt;/a&gt;, a terminal-based Mandelbrot set explorer (&lt;code&gt;pip install almonds&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Tenchi2xh/Falcon&#34;&gt;Falcon&lt;/a&gt;, a music box punchcard writer&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Tenchi2xh/Scurses#scurses&#34;&gt;Scurses&lt;/a&gt;, a no-dependency &lt;code&gt;ncurses&lt;/code&gt; for Scala&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Tenchi2xh/Scurses#onions&#34;&gt;Onions&lt;/a&gt;, a UI / dashboard API for Scurses&lt;/li&gt;
-&lt;li&gt;My recent Chrome extension coding spree, and how easy it is to write them&lt;/li&gt;
-&lt;li&gt;Trying out &lt;a href=&#34;http://www.typescriptlang.org/&#34;&gt;Typescript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Experimenting with &lt;a href=&#34;http://threejs.org/&#34;&gt;three.js&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;codegolf.stackexchange.com&#34;&gt;Code golfing&lt;/a&gt; and &lt;a href=&#34;https://github.com/isaacg1/pyth&#34;&gt;Pyth&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Using &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; for the first time and creating this blog&lt;/li&gt;
-&lt;li&gt;&lt;s&gt;ULTRA SECRET PROJECT&lt;/s&gt; Kotan (&lt;a href=&#34;http://jisho.org/word/枯淡&#34;&gt;枯淡&lt;/a&gt;), a web application for playing Go online, with lots of innovative features (I feel like the world of online Go has been stagnating for a long time)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you see something you like or have a question, &lt;em&gt;feel free&lt;/em&gt; to comment using the comment form (you don&amp;rsquo;t need a Disqus account), or mail me!&lt;/p&gt;
-</description>
+      <guid>http://localhost:1313/posts/introduction/</guid>
+      <description>&lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;&#xA;&lt;h1 id=&#34;me-me-me&#34;&gt;Me, me, me&amp;hellip;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Me too!” &amp;ndash; Agent Smith&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby (and optionally as a job).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>About</title>
-      <link>http://tenchi.team2xh.net/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 04 Feb 2016 00:21:49 +0100</pubDate>
-      
-      <guid>http://tenchi.team2xh.net/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;me&#34;&gt;Me&lt;/h1&gt;
-
-&lt;p&gt;Programmer from Switzerland, now living in the Netherlands. You can read more about me in my &lt;a href=&#34;http://tenchi.team2xh.net/posts/introduction&#34;&gt;Introcution&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here is a random list of things I like:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Text files&lt;/li&gt;
-&lt;li&gt;Terminals&lt;/li&gt;
-&lt;li&gt;Code golfing&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;The game of Go&lt;/a&gt; (~5k)&lt;/li&gt;
-&lt;li&gt;Customizing &lt;em&gt;everything&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Street Fighter&lt;/li&gt;
-&lt;li&gt;Python, Scala&lt;/li&gt;
-&lt;li&gt;Font kerning&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Interested in talking about one of these subjects?&lt;/p&gt;
-
-&lt;p&gt;Hit me up by mail down below :)&lt;/p&gt;
-
-&lt;h1 id=&#34;credits&#34;&gt;Credits&lt;/h1&gt;
-
-&lt;p&gt;This blog was made thanks to&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-cactus-theme&#34;&gt;hugo-cactus-theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/X1011/git-directory-deploy&#34;&gt;git-directory-deploy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jnicol/particleground/pull/15&#34;&gt;Zodiac&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;me&#34;&gt;Me&lt;/h1&gt;&#xA;&lt;p&gt;Programmer from Switzerland, now living in the Netherlands. You can read more about me in my &lt;a href=&#34;http://localhost:1313/posts/introduction&#34;&gt;Introcution&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here is a random list of things I like:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Text files&lt;/li&gt;&#xA;&lt;li&gt;Terminals&lt;/li&gt;&#xA;&lt;li&gt;Code golfing&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Go_%28game%29&#34;&gt;The game of Go&lt;/a&gt; (~5k)&lt;/li&gt;&#xA;&lt;li&gt;Customizing &lt;em&gt;everything&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;Street Fighter&lt;/li&gt;&#xA;&lt;li&gt;Python, Scala&lt;/li&gt;&#xA;&lt;li&gt;Font kerning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Interested in talking about one of these subjects?&lt;/p&gt;&#xA;&lt;p&gt;Hit me up by mail down below :)&lt;/p&gt;&#xA;&lt;h1 id=&#34;credits&#34;&gt;Credits&lt;/h1&gt;&#xA;&lt;p&gt;This blog was made thanks to&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/digitalcraftsman/hugo-cactus-theme&#34;&gt;hugo-cactus-theme&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/X1011/git-directory-deploy&#34;&gt;git-directory-deploy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jnicol/particleground/pull/15&#34;&gt;Zodiac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

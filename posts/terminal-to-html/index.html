@@ -1,17 +1,17 @@
     <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Hamza Haiken">
 		<meta name="description" content="Posts about my free time projects">
-		<meta name="generator" content="Hugo 0.18.1" />
+		<meta name="generator" content="Hugo 0.143.0">
 		<title>/* COMMENT BLOCKS: HTML TERMINAL SNAPSHOTS */</title>
-		<link rel="shortcut icon" href="http://tenchi.team2xh.net/images/favicon.png">
+		<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png">
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="http://tenchi.team2xh.net/css/style.css">
-		<link rel="stylesheet" href="http://tenchi.team2xh.net/css/monosocialiconsfont.css">
+		<link rel="stylesheet" href="http://localhost:1313/css/style.css">
+		<link rel="stylesheet" href="http://localhost:1313/css/monosocialiconsfont.css">
 		
 	</head>
 
@@ -22,11 +22,11 @@
     <div class="nav-buttons">
 	
 	
-		<a href='http://tenchi.team2xh.net/'> <span class="arrow">← </span>HOME</a>
+		<a href='http://localhost:1313/'> <span class="arrow">← </span>HOME</a>
 	
 
 	
-		<a href='http://tenchi.team2xh.net/about'>ABOUT</a>
+		<a href='http://localhost:1313/about'>ABOUT</a>
 	
 
 	
@@ -40,38 +40,26 @@
                     <h2 class="headline">April 9, 2016</h2>
                 </header>
                 <section id="post-body">
-                    
-
-<p>In preparation for my future posts, I needed to devise a way to export the output of <em>terminal commands</em> to formatted HTML (including colors). While I&rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.</p>
-
+                    <p>In preparation for my future posts, I needed to devise a way to export the output of <em>terminal commands</em> to formatted HTML (including colors). While I&rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.</p>
 <h2 id="first-attempt">First attempt</h2>
-
 <blockquote>
-<p>&#x2318;+C, &#x2318;+V</p>
-</blockquote>
-
+<p>⌘+C, ⌘+V</p></blockquote>
 <p>My research first led me to an <em>OS X only</em> version. The clipboard management of OS X has support for rich text copy and paste, through the RTF format. I could just run a command in the Terminal application, copy and paste the output to TextEdit, and save as an HTML file.</p>
-
 <p>Although this solution worked, it had major caveats:</p>
-
 <ol>
 <li>It is a tedious process and can&rsquo;t be automated</li>
 <li>The generated HTML output is not really helpful for this blog:
-
 <ul>
 <li>All colors and properties defined in generated styles in <code>&lt;head&gt;</code></li>
 <li>Automatically generated style names makes it impossible to paste multiple snapshots in a single post</li>
 <li>Not in a <code>&lt;pre&gt;</code> tag, spaces are wrapped in styled spans</li>
-</ul></li>
+</ul>
+</li>
 <li>Not really portable!</li>
 </ol>
-
 <h2 id="an-answer-from-the-experts"><em>An answer from the experts</em></h2>
-
-<p>Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called <a href="http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php">ansifilter</a><sup class="footnote-ref" id="fnref:ansifilter-is-av"><a rel="footnote" href="#fn:ansifilter-is-av">1</a></sup>, which translates <em>ANSI escape codes</em> (we&rsquo;re gonna see a lot more of these in future posts :)<sup class="footnote-ref" id="fnref:http-www-xkcd-co"><a rel="footnote" href="#fn:http-www-xkcd-co">2</a></sup> to either formats such as HTML, RTF and even LaTeX.</p>
-
-<p>What&rsquo;s more, <code>ansifilter</code> generates clean HTML, uses <code>&lt;pre&gt;</code> and can produce either a standalone HTML file or only the contents of the <code>&lt;pre&gt;</code> tag. I can now present to you, anytime I want, <strong><em>glorious terminal snapshots</em></strong>:</p>
-
+<p>Thankfully after reading some posts on StackOverflow, I discovered a very nifty tool called <a href="http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php">ansifilter</a>^[<code>ansifilter</code> is available on <code>brew</code> if you&rsquo;re on a Mac], which translates <em>ANSI escape codes</em> (we&rsquo;re gonna see a lot more of these in future posts :)^[http://www.xkcd.com/541/] to either formats such as HTML, RTF and even LaTeX.</p>
+<p>What&rsquo;s more, <code>ansifilter</code> generates clean HTML, uses <code>&lt;pre&gt;</code> and can produce either a standalone HTML file or only the contents of the <code>&lt;pre&gt;</code> tag. I can now present to you, anytime I want, <em><strong>glorious terminal snapshots</strong></em>:</p>
 <table class="highlighttable">
     <tr>
         <td>
@@ -106,18 +94,20 @@ $ cowsay -e '&gt;o' 'Howdy, readers!' | lolcat -F 0.4
     </tr>
 </table>
 
-
 <p>All I had to do now was to create some useful aliases:</p>
-<table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%">1
-2</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span><span style="color: #f8f8f2">alias</span> <span style="color: #f8f8f2">html</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;ansifilter -H -f&quot;</span>
-<span style="color: #f8f8f2">alias</span> <span style="color: #f8f8f2">copyhtml</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;html | pbcopy&quot;</span>
-</pre></div>
-</td></tr></table>
-<p>Running any command and piping its output to <code>copyhtml</code> would now place a nicely colored HTML output in my clipboard, ready to paste anywhere. Piping to <code>html</code> would output the formated HTML to <code>stdout</code> enabling you to further pipe into other commands.</p>
-
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias html<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ansifilter -H -f&#34;</span>
+</span></span><span style="display:flex;"><span>alias copyhtml<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;html | pbcopy&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Running any command and piping its output to <code>copyhtml</code> would now place a nicely colored HTML output in my clipboard, ready to paste anywhere. Piping to <code>html</code> would output the formated HTML to <code>stdout</code> enabling you to further pipe into other commands.</p>
 <p>The last step to make this process even quicker with <a href="http://gohugo.io/">Hugo</a>, my blog builder, was to create a template to avoid having to manually wrap my pasted snippet with opening and closing tags for the formatting:</p>
-
-<p><table class="highlighttable">
+<table class="highlighttable">
     <tr>
         <td>
             <div class="linenodiv">
@@ -148,12 +138,9 @@ $ pless layouts/shortcodes/term.html
         </td>
     </tr>
 </table>
-</p>
 
 <p>(<code>pless</code> is a custom command that has a <code>less</code> behavior while highlighting code syntax with <code>pygments</code>, more on that in later posts!)</p>
-
 <p>Thanks to that template, I now have a really nice work flow for writing my Markdown posts:</p>
-
 <ul>
 <li>Run the command I want to demo, pipe it to <code>copyhtml</code></li>
 <li>Go to my Markdown article, open a <code>{{&lt; term &gt;}}</code> tag</li>
@@ -161,42 +148,31 @@ $ pless layouts/shortcodes/term.html
 <li>???</li>
 <li>Profit!</li>
 </ul>
-
 <h2 id="clever-pipes">Clever pipes</h2>
-
 <p>In actuality, I had to cheat to produce the above example (sorry). Some programs like <code>ls</code> or <a href="https://github.com/busyloop/lolcat">lolcat</a> will detect if their <code>stdout</code> is connected to a tty or not, stripping all ANSI escape codes in the latter case.</p>
-
-<p>Enter the <code>unbuffer</code> command from the <code>expect</code><sup class="footnote-ref" id="fnref:Also-available-o"><a rel="footnote" href="#fn:Also-available-o">3</a></sup> software suite:</p>
-
+<p>Enter the <code>unbuffer</code> command from the <code>expect</code>^[Also available on <code>brew</code>] software suite:</p>
 <blockquote>
-<p>unbuffer disables the output buffering that occurs when program output is redirected from non-interactive programs.</p>
-</blockquote>
-
+<p>unbuffer disables the output buffering that occurs when program output is redirected from non-interactive programs.</p></blockquote>
 <p>The commands I really ran were:</p>
-<table class="highlighttable"><tr><td><div class="linenodiv" style="background-color: #f0f0f0; padding-right: 10px"><pre style="line-height: 125%">1
-2
-3</pre></div></td><td class="code"><div class="highlight" style="background: #272822"><pre style="line-height: 125%"><span></span>cowsay -e <span style="color: #e6db74">&#39;&gt;o&#39;</span> <span style="color: #e6db74">&#39;Howdy, readers!&#39;</span> &gt; tmp
-unbuffer lolcat -F <span style="color: #ae81ff">0</span>.4 tmp <span style="color: #f8f8f2">|</span> copyhtml
-rm tmp
-</pre></div>
-</td></tr></table>
-<p>But, for most cases, <code>command | copyhtml</code> is enough :)</p>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:ansifilter-is-av"><code>ansifilter</code> is available on <code>brew</code> if you&rsquo;re on a Mac <a class="footnote-return" href="#fnref:ansifilter-is-av"><sup>[return]</sup></a></li>
-<li id="fn:http-www-xkcd-co"><a href="http://www.xkcd.com/541/">http://www.xkcd.com/541/</a> <a class="footnote-return" href="#fnref:http-www-xkcd-co"><sup>[return]</sup></a></li>
-<li id="fn:Also-available-o">Also available on <code>brew</code> <a class="footnote-return" href="#fnref:Also-available-o"><sup>[return]</sup></a></li>
-</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cowsay -e <span style="color:#e6db74">&#39;&gt;o&#39;</span> <span style="color:#e6db74">&#39;Howdy, readers!&#39;</span> &gt; tmp
+</span></span><span style="display:flex;"><span>unbuffer lolcat -F 0.4 tmp | copyhtml
+</span></span><span style="display:flex;"><span>rm tmp
+</span></span></code></pre></td></tr></table>
 </div>
+</div><p>But, for most cases, <code>command | copyhtml</code> is enough :)</p>
 
                 </section>
             </article>
             <footer id="post-meta" class="clearfix">
                 <a href="https://twitter.com/2xhTenchi">
-                        <img class="avatar" src="http://tenchi.team2xh.net/images/hanko.png">
+                        <img class="avatar" src="http://localhost:1313/images/hanko.png">
                         <div>
                             <span class="dark">Hamza “Tenchi” Haiken</span>
                             <span>Enthusiastic hacker</span>
@@ -204,26 +180,31 @@ rm tmp
                     </a>
                 <section id="sharing">
                     <a class="email" href="mailto:tenchi@team2xh.net"><span class="symbol email">&#xe024;</span>Mail</a>
-<a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2ftenchi.team2xh.net%2fposts%2fterminal-to-html%2f - HTML%20Terminal%20Snapshots by @2xhTenchi"><span class="icon-twitter"> Tweet</span></a>
+<a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2flocalhost%3a1313%2fposts%2fterminal-to-html%2f - HTML%20Terminal%20Snapshots by @2xhTenchi"><span class="icon-twitter"> Tweet</span></a>
 
                 </section>
             </footer>
 
             <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'commentblocks';
-    var disqus_identifier = 'http:\/\/tenchi.team2xh.net\/posts\/terminal-to-html\/';
-    var disqus_title = 'HTML Terminal Snapshots';
-    var disqus_url = 'http:\/\/tenchi.team2xh.net\/posts\/terminal-to-html\/';
-
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
     (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "commentblocks" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
     })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
             <ul id="post-list" class="archive readmore">
     <h3>READ MORE</h3>
@@ -231,21 +212,35 @@ rm tmp
     
         
         <li>
-            <a href="http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/">Zelda mechanical keyboard<aside class="dates">February 22 2017</aside></a>
+            <a href="http://localhost:1313/">COMMENT BLOCKS<aside class="dates">February 22 2017</aside></a>
         </li>
         
    
     
         
         <li>
-            <a href="http://tenchi.team2xh.net/posts/terminal-to-html/">HTML Terminal Snapshots<aside class="dates">April 9 2016</aside></a>
+            <a href="http://localhost:1313/posts/">Posts<aside class="dates">February 22 2017</aside></a>
         </li>
         
    
     
         
         <li>
-            <a href="http://tenchi.team2xh.net/posts/introduction/">Introduction<aside class="dates">February 8 2016</aside></a>
+            <a href="http://localhost:1313/posts/zelda-mechanical-keyboard/">Zelda mechanical keyboard<aside class="dates">February 22 2017</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://localhost:1313/posts/terminal-to-html/">HTML Terminal Snapshots<aside class="dates">April 9 2016</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="http://localhost:1313/posts/introduction/">Introduction<aside class="dates">February 8 2016</aside></a>
         </li>
         
    
@@ -255,14 +250,14 @@ rm tmp
     
         
         <li>
-            <a href="http://tenchi.team2xh.net/">COMMENT BLOCKS<aside class="dates">February 22 2017</aside></a>
+            <a href="http://localhost:1313/categories/">Categories<aside class="dates">January 1 0001</aside></a>
         </li>
         
    
     
         
         <li>
-            <a href="http://tenchi.team2xh.net/posts/">Posts<aside class="dates">February 22 2017</aside></a>
+            <a href="http://localhost:1313/tags/">Tags<aside class="dates">January 1 0001</aside></a>
         </li>
         
    
@@ -278,7 +273,7 @@ rm tmp
 
     <p class="small">
     
-        © Copyright 2017 Hamza Haiken
+        © Copyright 2025 Hamza Haiken
     
     </p>
 </footer>
@@ -286,18 +281,8 @@ rm tmp
         </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="http://tenchi.team2xh.net/js/zodiac.js"></script>
-<script src="http://tenchi.team2xh.net/js/main.js"></script>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-19987743-3', 'auto');
-ga('send', 'pageview');
-</script>
+<script src="http://localhost:1313/js/zodiac.js"></script>
+<script src="http://localhost:1313/js/main.js"></script>
 
 
     </body>
