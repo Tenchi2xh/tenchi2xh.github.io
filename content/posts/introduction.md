@@ -14,7 +14,7 @@ My name is Hamza Haiken (or *Tenchi* <img class="inline-image" src="/images/hank
 
 I was born in Switzerland where I majored in Computer Science and Engineering in the HEIG-VD. I now live in the Netherlands where I work as a Software Developer in a major IT consulting company.
 
-Also, I happen to be the only member of *team2xh* <img class="inline-image" src="http://team2xh.net/team2xh.png" /> which totally is a *real* coding group that focuses on doing exactly what I like to do :o)
+Also, I happen to be the only member of *team2xh* <img class="inline-image" src="https://team2xh.net/team2xh.png" /> which totally is a *real* coding group that focuses on doing exactly what I like to do :o)
 
 What do I like? Prototyping crazy ideas, coding my way through life, discovering new technologies but also very old ones. Language wise, I really enjoy developing in *Python* and *Scala*. I enjoy putting to code everything that crosses my mind and trying new ideas.
 
