@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on COMMENT BLOCKS</title>
-    <link>http://tenchi.team2xh.net/posts/</link>
+    <link>https://tenchi.team2xh.net/posts/</link>
     <description>Recent content in Posts on COMMENT BLOCKS</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Feb 2017 10:44:35 +0100</lastBuildDate>
-    <atom:link href="http://tenchi.team2xh.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tenchi.team2xh.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zelda mechanical keyboard</title>
-      <link>http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</link>
+      <link>https://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</link>
       <pubDate>Wed, 22 Feb 2017 10:44:35 +0100</pubDate>
-      <guid>http://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://tenchi.team2xh.net/img/keyboard/header.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I always wanted a second mechanical keyboard: for a long time I&amp;rsquo;ve had a &lt;a href=&#34;http://www.corsair.com/en-eu/vengeance-k90-performance-mmo-mechanical-gaming-keyboard&#34;&gt;Corsair K90&lt;/a&gt;, which is gaming focused. But for my daily work, I wanted something more oriented towards typing, and in a portable form-factor so that I can bring it to my workplace (I was currently using a wired &lt;a href=&#34;http://www.apple.com/uk/shop/product/MB110B/B/apple-keyboard-with-numeric-keypad-british&#34;&gt;Apple keyboard&lt;/a&gt; but that will just not cut it).&lt;/p&gt;&#xA;&lt;p&gt;Everyday keyboards provide springiness to their keys by having a large rubber layer, subdivided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard&#34;&gt;dome shapes&lt;/a&gt;. The crux of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard&#34;&gt;mechanical keyboard&lt;/a&gt; lies in the fact that each key has its separate mechanical switch, which gives keys more depth and a more satisfying feedback.&lt;/p&gt;</description>
+      <guid>https://tenchi.team2xh.net/posts/zelda-mechanical-keyboard/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://tenchi.team2xh.net/img/keyboard/header.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I always wanted a second mechanical keyboard: for a long time I&amp;rsquo;ve had a &lt;a href=&#34;http://www.corsair.com/en-eu/vengeance-k90-performance-mmo-mechanical-gaming-keyboard&#34;&gt;Corsair K90&lt;/a&gt;, which is gaming focused. But for my daily work, I wanted something more oriented towards typing, and in a portable form-factor so that I can bring it to my workplace (I was currently using a wired &lt;a href=&#34;http://www.apple.com/uk/shop/product/MB110B/B/apple-keyboard-with-numeric-keypad-british&#34;&gt;Apple keyboard&lt;/a&gt; but that will just not cut it).&lt;/p&gt;&#xA;&lt;p&gt;Everyday keyboards provide springiness to their keys by having a large rubber layer, subdivided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Dome-switch_keyboard&#34;&gt;dome shapes&lt;/a&gt;. The crux of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Keyboard_technology#Mechanical-switch_keyboard&#34;&gt;mechanical keyboard&lt;/a&gt; lies in the fact that each key has its separate mechanical switch, which gives keys more depth and a more satisfying feedback.&lt;/p&gt;</description>
     </item>
     <item>
       <title>HTML Terminal Snapshots</title>
-      <link>http://tenchi.team2xh.net/posts/terminal-to-html/</link>
+      <link>https://tenchi.team2xh.net/posts/terminal-to-html/</link>
       <pubDate>Sat, 09 Apr 2016 01:10:08 +0200</pubDate>
-      <guid>http://tenchi.team2xh.net/posts/terminal-to-html/</guid>
+      <guid>https://tenchi.team2xh.net/posts/terminal-to-html/</guid>
       <description>&lt;p&gt;In preparation for my future posts, I needed to devise a way to export the output of &lt;em&gt;terminal commands&lt;/em&gt; to formatted HTML (including colors). While I&amp;rsquo;m sure some terminal emulators out there already provide such a feature, I wanted my own portable solution that anyone could use.&lt;/p&gt;&#xA;&lt;h2 id=&#34;first-attempt&#34;&gt;First attempt&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;⌘+C, ⌘+V&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;My research first led me to an &lt;em&gt;OS X only&lt;/em&gt; version. The clipboard management of OS X has support for rich text copy and paste, through the RTF format. I could just run a command in the Terminal application, copy and paste the output to TextEdit, and save as an HTML file.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>http://tenchi.team2xh.net/posts/introduction/</link>
+      <link>https://tenchi.team2xh.net/posts/introduction/</link>
       <pubDate>Mon, 08 Feb 2016 19:41:05 +0100</pubDate>
-      <guid>http://tenchi.team2xh.net/posts/introduction/</guid>
+      <guid>https://tenchi.team2xh.net/posts/introduction/</guid>
       <description>&lt;p&gt;Welcome to &lt;code&gt;/* COMMENT BLOCKS */&lt;/code&gt;, my little web log where I will share with you everything about the progress on my &lt;em&gt;personal projects&lt;/em&gt;, as well as interesting challenges, findings or techniques regarding &lt;em&gt;programming&lt;/em&gt;, and other random stuff.&lt;/p&gt;&#xA;&lt;h1 id=&#34;me-me-me&#34;&gt;Me, me, me&amp;hellip;&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“Me too!” &amp;ndash; Agent Smith&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;My name is Hamza Haiken (or &lt;em&gt;Tenchi&lt;/em&gt; &lt;!-- raw HTML omitted --&gt; on the internet). I have been programming and tinkering with computers ever since I was little and continue doing so every day as a hobby (and optionally as a job).&lt;/p&gt;</description>
     </item>
   </channel>
